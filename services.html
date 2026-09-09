@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KiddoCare - Services</title>
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="logo">
+    <img src="images/kiddocare-logo.png" alt="KiddoCare" class="logo-img">
+  </div>
+  <nav class="nav-links">
+    <a href="home.html">HOME</a>
+    <a href="#" class="active">SERVICES</a>
+    <a href="about.html#about">ABOUT</a>
+  </nav>
+  <div class="nav-actions">
+    <button class="btn-outline">Sign In</button>
+    <button class="btn-solid">Sign Up</button>
+  </div>
+</header>
+
+<section class="page-hero">
+  <img src="images/bg-img.jpg" alt="" class="page-hero-bg">
+  <div class="page-hero-overlay"></div>
+  <h1 class="page-hero-title">SERVICES</h1>
+</section>
+
+<section class="service-detail pink">
+  <div class="detail-text">
+    <h2>CHECKUPS</h2>
+    <p><b>KiddoCare</b> offers comprehensive pediatric checkups that focus on monitoring a child's overall health and development. The service includes routine physical examinations, assessment of growth and vital signs, evaluation of symptoms, and medical consultation with a healthcare provider.</p>
+  </div>
+  <div class="detail-img">
+    <img src="images/checkups.webp" alt="Pediatrician checking a baby">
+  </div>
+</section>
+
+<section class="service-detail blue reverse">
+  <div class="detail-img">
+    <img src="images/vaccinations.jpg" alt="Nurse vaccinating a toddler">
+  </div>
+  <div class="detail-text">
+    <h2>VACCINATIONS</h2>
+    <p><b>KiddoCare</b> provides safe, timely pediatric vaccinations by following recommended immunization schedules, recording vaccine details, and tracking each child's vaccination history to ensure complete and up-to-date protection against preventable diseases.</p>
+  </div>
+</section>
+
+<section class="service-detail pink">
+  <div class="detail-text">
+    <h2>IMMUNIZATION</h2>
+    <p><b>KiddoCare</b> provides safe and timely immunization services by following recommended schedules, accurately recording vaccine details, and tracking each child's immunization history to ensure complete and up-to-date protection against preventable diseases.</p>
+  </div>
+  <div class="detail-img">
+    <img src="images/immunization.webp" alt="Child receiving an immunization shot">
+  </div>
+</section>
+
+<section class="appointment-band">
+  <img src="images/bg-img.jpg" alt="" class="band-img">
+  <div class="appointment-card">
+    <div class="appointment-header">
+      <h2>Book an <span>Appointment</span></h2>
+    </div>
+    <form class="appointment-form">
+      <div>
+        <label for="patient-name">Patient's Name: <span class="required">*</span></label>
+        <input type="text" id="patient-name" name="patient-name" placeholder="Enter the Patient's Name" required>
+      </div>
+
+      <div>
+        <label for="guardian-name">Guardian's Name: <span class="required">*</span></label>
+        <input type="text" id="guardian-name" name="guardian-name" placeholder="Enter the Guardian's Name" required>
+      </div>
+
+      <div>
+        <label for="email">E-mail: <span class="required">*</span></label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="service">Service: <span class="required">*</span></label>
+          <select id="service" name="service" required>
+            <option value="" disabled selected>Select appointment type</option>
+            <option value="checkup">Checkup</option>
+            <option value="vaccination">Vaccination</option>
+            <option value="immunization">Immunization</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="date">Date: <span class="required">*</span></label>
+          <input type="date" id="date" name="date" required>
+        </div>
+      </div>
+
+      <button type="submit" class="btn-book">Book Appointment</button>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-col">
+    <h4>Contact Us</h4>
+    <p><svg class="ico" viewBox="0 0 24 24"><path d="M12 3l9 8h-3v9h-5v-6H11v6H6v-9H3z" fill="#fff"/></svg> Manila, Philippines</p>
+    <p><svg class="ico" viewBox="0 0 24 24"><path d="M6 3h4l2 5-2.5 1.5a12 12 0 006 6L17 13l5 2v4a2 2 0 01-2 2C10.6 21 3 13.4 3 4a2 2 0 012-2z" fill="#fff"/></svg> +63 912 345 6789</p>
+    <p><svg class="ico" viewBox="0 0 24 24"><path d="M3 5h18v14H3z" fill="none" stroke="#fff" stroke-width="1.5"/><path d="M3 5l9 8 9-8" fill="none" stroke="#fff" stroke-width="1.5"/></svg> kiddocare02@gmail.com</p>
+  </div>
+  <div class="footer-col footer-logo">
+    <img src="images/kiddocare-logo.png" alt="KiddoCare" class="footer-logo-img">
+  </div>
+  <div class="footer-col">
+    <h4>Navigation</h4>
+    <a href="home.html">Home</a>
+    <a href="#">Services</a>
+    <a href="about.html">About Us</a>
+  </div>
+  <div class="footer-bottom">
+    <span>&copy; KiddoCare. All rights reserved</span>
+    <div class="socials">
+      <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="11" fill="none" stroke="#fff" stroke-width="1.4"/><path d="M14 8h-1.5c-.6 0-1 .4-1 1v2H14l-.4 2.5h-1.6V19h-2.5v-5.5H8V11h1.5V9c0-1.7 1-3 2.8-3H14z" fill="#fff"/></svg>
+      <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="11" fill="none" stroke="#fff" stroke-width="1.4"/><path d="M18 8.3c-.4.2-.9.3-1.4.4a2.4 2.4 0 001-1.3c-.5.3-1 .5-1.6.6a2.4 2.4 0 00-4.1 2.2 6.8 6.8 0 01-5-2.5 2.4 2.4 0 00.8 3.2c-.4 0-.8-.1-1.1-.3v.1c0 1.2.8 2.1 1.9 2.4-.3.1-.7.1-1.1 0 .3 1 1.2 1.6 2.3 1.7A4.8 4.8 0 016 15.7 6.8 6.8 0 009.6 16.7c4.3 0 6.7-3.6 6.7-6.7v-.3c.5-.3.9-.7 1.2-1.2z" fill="#fff"/></svg>
+      <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="11" fill="none" stroke="#fff" stroke-width="1.4"/><path d="M6 8h12v8H6z" fill="none" stroke="#fff" stroke-width="1.3"/><path d="M6 8l6 5 6-5" fill="none" stroke="#fff" stroke-width="1.3"/></svg>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
